@@ -6,7 +6,7 @@ Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardant
 ##Cars:
 
     Column:
-    - id | BIGINT AUTO_INCREMENT NOTNULL
+    - id | BIGINT AUTO_INCREMENT NOTNULL UNIQUE
     - km | SMALL/MEDIUMINT NOTNULL
     - year | YEAR NOTNULL
     - model | VARCHAR(200) NULL
